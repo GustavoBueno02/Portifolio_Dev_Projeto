@@ -34,3 +34,49 @@
   --text-md-stroke: 500 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
 }
+
+.container {
+  max-width: 1366px;
+  margin-inline: auto;
+  padding: 24px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  background-color: var(--color-bg);
+  text-align: center;
+}
+
+h1 {
+  font: var(--text-title-lg);
+  color: var(--color-gray-600);
+}
+
+h2 {
+  font: var(--text-subtitle);
+  color: var(--color-gray-500);
+  padding-bottom: 8px;
+}
+
+h3 {
+  font: var(--text-title-md);
+  color: var(--color-gray-600);
+}
+
+h4 {
+  font: var(--text-title-sm);
+  color: var(--color-gray-600);
+}
+
+p {
+  font: var(--text-sm);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+  font: var(--text-md-stroke);
+}
